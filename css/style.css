@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    margin: 50px auto 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .container {
+    padding: 0 40px;
+}
+
+.card .container .text {
+    text-align: center;
+}
+
+.card .container .text h2 {
+    margin: 30px 0 20px;
+}
+
+.card .container .text p {
+    line-height: 1.5;
+    color: #777;
+    font-size: 16px;
+}
+
+.card .container .buttons .plans {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+
+.card .container .buttons .plans .plan {
+    display: flex;
+    align-items: center;
+}
+
+.card .container .buttons .plans .plan i {
+    background-color: hsl(225, 100%, 94%);
+    display: block;
+    border-radius: 50%;
+    padding: 15px;
+    color: hsl(245, 75%, 40%);
+}
+
+.card .container .buttons .plans .plan .text-2 {
+    margin-left: 20px;
+}
+
+.card .container .buttons .plans .plan .text-2 p {
+    margin-bottom: 5px;
+    color: black;
+    font-weight: 600;
+}
+
+.card .container .buttons .plans .plan .text-2 span {
+    color: #777;
+}
+
+.card .container .buttons .plans .change {
+    display: block;
+    color: hsl(228, 45%, 50%);
+}
+
+.card .container .buttons .proceed {
+    display: block;
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 10px 10px hsl(225, 100%, 95%);
+}
+
+.card .container .buttons .cancel {
+    display: block;
+    color: hsl(245, 75%, 52%);
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0;
+    font-size: 16px;
+}
